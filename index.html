@@ -30,21 +30,35 @@
                 <img class="headshot-image" src="images\drew.jpg" alt="headshot-img">
                 <img class="headshot-image" src="images\justin.jpg" alt="headshot-img">
             </div>
-            <h2>Hello.</h2>
-            <p class="bio">Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+            <h2>Abstract</h2>
+            <p class="bio">
+                The growing concern in data privacy has led to new paradigms in Machine Learning primarily focused around keep data safe and secure. 
+                In our research project, we studied Federated Learning, specifically utilizing knowledge distillation and an autoencoder in an attempt to create a sustainable model that could be used in a field such as Heathcare. 
+                We propose a Federated Model using the Flower framework, trained on the MedMNIST2D dataset (Organ(A/C/S)MNIST), using Knowledge Distillation as a method of sharing the global model, and a Variational Autoencoder to deal with the problem of Data Heterogeneity that can arise on a distributed network. 
+                Our results on a cumulative model are tentative but hope to prove that the idea can be utilized in networks with varying sizes of edge device, usage, and types.
+            </p>
         </div>
         <hr>
         <div class="skills">
             <h2>Our Aproach.</h2>
             <div class="skill-row">
             <img class="code-image" src="images\flower-logo.png" alt="coding">
-            <h3>Lorem & Ipsum</h3>
-            <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+            <h3>Federated Learning</h3>
+            <p>
+                Using Flower, a Federated learning framework in Python, we create a primary server with a collection of clients to simulate what a real-world environment might be like.
+                In FL, the local client models will train on data they collect, which are then transmitted to the global model, where they are then combined and redistributed.
+                We aim to use this methodology due to the rising concerns in Data Privacy and amount of sensitive information being collected on the general public, with the hope to
+                keep data as secure as possible, by never transmitting the data itself. 
+            </p>
             </div>
             <div class="skill-row">
             <img class="machine-image" src="images\TensorFlow_logo.png" alt="machine-learning">
-            <h3>Lorem Ipsum Dolor</h3>
-            <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+            <h3>Knowledge Distillation</h3>
+            <p>
+                The basic idea behind Knowledge Distillation is to train a smaller 'student' model from a larger, more complex, 'teacher' model.
+                The primary goal is to Distill the Knowledge learned from the teacher model to the student while also reducing the size and computational cost.
+                The concept is mainly used in environments with resource-constrained devices as a way to make them more energy efficient and better for edge device users.
+            </p>
             </div>
         </div>
         <hr>
@@ -65,9 +79,10 @@
         </div>
     </div>
 
-    <div class="bottom-container">
-        <a class="footer-link" href="https://twitter.com/">Twitter</a>
-        <a class="footer-link" href="https://twitter.com/">Website</a>
+    <div class="bottom-container"> <!-- I figured we have to have our linked in profiles somewhere and this could be a decent place -->
+        <a class="footer-link" href="https://www.linkedin.com/in/aaron-cummings-bs-cs/">Aaron Cummings</a> 
+        <a class="footer-link" href="https://twitter.com/">Drew Hutchison</a>
+        <a class="footer-link" href="https://www.linkedin.com/in/justin-bull-2631b3231/">Justin Bull</a>
         <p class="copyright-text">© 2023</p>
     </div>
 </body>
