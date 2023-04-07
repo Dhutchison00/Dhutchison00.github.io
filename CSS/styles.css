@@ -28,6 +28,7 @@ h2 {
     color: #66BFBF;
     font-weight: normal;
     padding-bottom: 10px;
+    margin: 5px auto 5px auto;
 }
 
 h3 {
@@ -44,7 +45,7 @@ a {
 }
 
 .bio {
-    width: 35%;
+    width: 50%;
     margin: auto;
 }
 
@@ -57,11 +58,11 @@ a {
     background-color: #E4F9F5;
     position: relative;
     margin: 0;
-    padding: 10px;
+    padding: 50px;
 }
 
 .middle-container {
-    margin: 100px 0;
+    margin: 50px 0;
 }
 
 .bottom-container {
@@ -113,11 +114,11 @@ a {
 
 .headshot-images {
     width: 50%;
-    margin: 100px auto auto auto;
+    margin: auto;
 }
 
 .copyright-text {
-    margin: 50px auto 0 auto;
+    margin: 5px auto 5px auto;
     color: #EAF6F6;
     font-size: 0.75rem;
     position: absolute;
