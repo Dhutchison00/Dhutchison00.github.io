@@ -107,6 +107,12 @@ a {
     margin-left: 30px;
 }
 
+.VAE-image{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
 .headshot-image {
     width: 25%;
     border-radius: 100%;
